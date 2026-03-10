@@ -20,7 +20,7 @@
     "minimum-stability":"dev",
     "require": {
         "php": ">=5.3",
-        "bshaffer/oauth2-server-php": "v1.14.1",
+        "bshaffer/oauth2-server-php": ">=1.0",
         "bshaffer/oauth2-server-httpfoundation-bridge": "^1.2"
     },
     "require-dev": {
