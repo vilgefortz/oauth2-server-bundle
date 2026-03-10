@@ -1,11 +1,17 @@
 {
-    "name": "bshaffer/oauth2-server-bundle",
+    "name": "vilgefortz/oauth2-server-bundle",
     "type": "symfony-bundle",
     "description": "Symfony OAuth2ServerBundle",
     "keywords": ["oauth", "oauth2", "security"],
-    "homepage": "http://github.com/bshaffer/oauth2-server-bundle",
+    "homepage": "http://github.com/vilgefortz/oauth2-server-bundle",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Łukasz Zieliński",
+            "email": "v.lukasz.zielinski@gmail.com"
+        }
+    ],
+    "contributors": [
         {
             "name": "Brent Shaffer",
             "email": "bshafs@gmail.com"
@@ -14,7 +20,7 @@
     "minimum-stability":"dev",
     "require": {
         "php": ">=5.3",
-        "bshaffer/oauth2-server-php": ">=1.0",
+        "bshaffer/oauth2-server-php": "v1.14.1",
         "bshaffer/oauth2-server-httpfoundation-bridge": "^1.2"
     },
     "require-dev": {
